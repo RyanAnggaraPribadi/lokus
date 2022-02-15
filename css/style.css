@@ -78,6 +78,19 @@
     transition: .5s;
 }
 
+.active {
+    background-color: #2943D5;
+}
+
+.active svg path {
+    fill: #fff;
+}
+
+.active .text-menu {
+    color: #fff;
+    font-weight: bold;
+}
+
 .border-menu {
     border: 0.5px solid #A6B0C3;
     margin-top: 20px;
@@ -1848,7 +1861,7 @@
     border: 0.8px solid #A6B0C3;
     border-radius: 8px;
     background: url('../assets/icon/Down.png') no-repeat;
-    background-position: right;
+    background-position: 255px center;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1872,7 +1885,7 @@
     border: 0.8px solid #A6B0C3;
     border-radius: 8px;
     background: url('../assets/icon/Down.png') no-repeat;
-    background-position: right;
+    background-position: 255px center;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1938,6 +1951,12 @@
     border-radius: 100px;
     color: #fff;
     transition: 0.4s;
+}
+
+.active-menu {
+    background: #2943D5;
+    border-radius: 100px;
+    color: #fff !important;
 }
 
 .wrapper-use-licensi h4 {
